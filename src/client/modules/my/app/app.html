@@ -1,0 +1,19 @@
+<template>
+    <header>
+      <img src="resources/coffee-cup-icon.png" alt="App logo">
+      <h2>Project Zero Coffee Co.</h2>
+    </header>
+
+    <main class="content">
+      <h3>All About Us</h3>
+      A small little bit of information letting you know all there is about us.
+      <template if:true={isStateList}>
+        <my-session-list onnavigate={handleNavigate}>
+        </my-session-list>
+      </template>
+      <template if:true={isStateDetails}>
+        <my-session-details onnavigate={handleNavigate} session-id={sessionId}>
+        </my-session-details>
+      </template>
+    </main>
+  </template>

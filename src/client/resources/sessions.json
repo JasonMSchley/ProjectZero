@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Our History",
+      "description": "We have been making coffee for at least five minites, and therefore declare it to be the best in the world.",
+      "speakers": [
+        {
+          "id": "1",
+          "pictureUrl": "resources/OurHistory.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Our Promise",
+      "description": "We promise that it will be coffee. At least mostly coffee. At least there will be some coffee. It will at least look like coffee",
+      "speakers": [
+        {
+          "id": "2",
+          "pictureUrl": "resources/OurPromise.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The Taste",
+      "description": "After you drink our beverage you will never drink any other.",
+      "speakers": [
+        {
+          "id": "3",
+          "pictureUrl": "resources/TheTaste.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Get Inspired",
+      "description": "Our drink has many flavors and many uses. It works great in a pinch when your trying to hide the fact that you cant type, just spill a little on the keyboard and blame any typos on us.",
+      "speakers": [
+        {
+          "id": "4",
+          "pictureUrl": "resources/GetInspired.jpg"
+        }
+      ]
+    }
+  ]
+}

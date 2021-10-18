@@ -1,0 +1,20 @@
+git-cheat-sheet
+
+	git status
+	git add .
+		git add (name)
+	git commit -a "Message"
+	git push origin main
+
+lightning-cheat-sheet	
+
+	npx create-lwc-app	nameOfApplication
+		yes to simple setup
+		standard web app
+		no to express api
+		(npx create-lwc-app nameOfApplication --yes -o express)
+		
+	cd nameOfApplication
+	npm run watch
+		navigate to http://localhost:3001 or http://127.0.0.1:3001
+		
