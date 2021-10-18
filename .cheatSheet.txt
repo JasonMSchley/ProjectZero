@@ -3,7 +3,8 @@ git-cheat-sheet
 	git status
 	git add .
 		git add (name)
-	git commit -a "Message"
+	git commit -m "Message"
+	git remote add origin https://github.com/JasonMSchley/ProjectZero.git
 	git push origin main
 
 lightning-cheat-sheet	
