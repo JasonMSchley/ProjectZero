@@ -58,7 +58,7 @@
     justify-content: end;
   }
   .speaker-pictures > img {
-    border-radius: 50%;
+    border-radius: 75%;
     height: 3.5rem;
     margin-left: 0.5rem;
   }
