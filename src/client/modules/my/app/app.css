@@ -16,10 +16,12 @@
   }
   header h2 {
     font-size: 1.75rem;
-    font-weight: 300;
-    
-    
+    font-weight: 300;   
   }
-  header h4 {
-   
+  p {
+    color:#ffffff;
+  }
+
+  h2 {
+  color:#ffffff;
   }

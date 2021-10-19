@@ -1,9 +1,9 @@
 <template>
     <template if:true={session}>
-        <h2 style = "color:#ffffff;"><a href="#" onclick={handleSessionsClick}>About Us</a> &gt; {session.name}</h2>
+        <h2><a href="#" onclick={handleSessionsClick}>About Us</a> &gt; {session.name}</h2>
       <p class="icon time">{session.dateTime}</p>
       <p class="icon room">{session.room}</p>
-      <h3 style = "color:#ffffff;">Abstract</h3>
+      <h3>Abstract</h3>
       <div class="abstract" style = "color:#ffffff;">{session.description}</div>
   <div class="speaker-list" >
     <template if:true={session.speakers}>
