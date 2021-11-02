@@ -1,0 +1,53 @@
+
+(Show web page)
+The buisiness i choose for my assignment is a coffee wholesaler, with the name Project Zero Coffee.
+
+
+(Show ERD JPG)
+This ERD shows the breakdown of the Org and its processes. 
+Starting with retail Customers accounts and coresponding contact details. 
+
+a contract is made with each retailer regarding their specific discount rates in order to generate a price book. 
+
+Using that price rates the customers then place an order for their desired products
+The products themselves are stored in a warehouse that gets periodically refilled.
+
+
+(show datamodel)
+I created a seperate playground to prevent any changes i make in this org to my class account or traihead badge account.
+Here is the salesforce version of the model. 
+
+I started by creating my own objects for this project but found that the standard objects worked better with some minor adjustments. 
+
+One change is I have added a UPC field on products, which show up on the orders. 
+I have then moved around some fields in order to better display the new information. 
+I have changed the Organization Wide default on account record allowing all the users to be able to share access to them.
+
+
+(show roles)
+I also set up three additional users in order for each of them to handle different jobs.
+System Administrator and Operations are under the Cheif Operating Officer. 
+The COO and Cheif Financial Offer are under the CEO. 
+
+
+(show profile)
+Have given the users appropriate login hours and IP ranges. 
+
+(minimize)
+
+(show contracts)
+The Cheif Financial Officer is the only user that is able to create and edit contracts.
+(show products)
+While the Cheif Operation Officer is the only user that is able to create and edit products.
+
+(show opp)
+(coffee)
+Operations primarily to process purchase orders and has additional restrictions on the the fields they are able to access.
+(recently viewed)
+As well as modified record type.
+(field order)
+I also gave them a Global Action shortcut key and made a Lightning app Dynamic form showing them orders to process.
+
+
+
+

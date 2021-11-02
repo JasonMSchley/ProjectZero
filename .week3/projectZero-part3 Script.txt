@@ -1,0 +1,49 @@
+Project Zero Coffee
+part 3
+
+****************************************
+
+To make sure credit cards information is complete i have set up some Validation rules
+First rule just checks to make sure that when a credit card type is chosen that all fields in the card are required
+Second rule, which depends which credit card type you choice, makes sure that it is in the correct format and start with the correct didget
+
+********************************************
+
+As for process and approval requests i have one of each on two different items.
+First is for contact, 
+if direct billing is selected then the process clears out the card details.
+
+second part of the process is when a new credit card is entered the process sends an approval request for to validate the card 
+
+Second process and approval is for Orders
+in order not have to type out duplicate information when the shipping address is same as billing address, we just need to click the button and the process does it for you
+
+and second approval requests is for when the order is "hot" meaning they are ordering a large quanities, 
+this button here is in order to have authorization for special shipping types such as palets.
+
+****************************************************
+
+And here you can see the authorization requests coming into to this account
+
+*******************************************************
+
+Here I have the 2 workflow rules
+First workflow rule 
+just updates a rating field on an order record
+because if you order alot of coffee you want it hot.
+and if i change the order amount down to a reasonable quantity.
+the rating drops
+
+
+second workflow rule 
+runs wheneever a order is Activated
+a outbound message to the "warehouse" is sent for order to be fulfilled
+
+*******************************************************
+
+
+As for flows, i created 2 wizards to allow users to enter information
+first wizard creates a new contact while making sure not to create duplicate contacts of the same name
+and second wizard does the same type of thing for products
+
+and thats it for my project zero part 3, i hope i covered everything this time.
