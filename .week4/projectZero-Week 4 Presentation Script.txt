@@ -1,0 +1,31 @@
+
+Hello my name is Jason Schley
+As a salesforce developer for my Project Zero i created a Coffee wholsaler
+I personally dont drink coffee but i can see that its very popular
+I created a prototype of their web page using Lightning web components
+In future versions i am plan to add a link allowing end users to submit their own purchase order requests
+
+
+Within the org, the main user works within operations and has the most restrictions 
+and in order to minimize my license uses im going to pretend to be them.
+
+As the front facing roll their job is primarily to enter purchase orders and update contact information, 
+
+and if the order is large enough to send a authorization request to handle using pallets
+and some automation through workflows
+
+they are also able to create and update contacts including entering in new credit cards, which are then sent to accounting for final verification.
+
+I setup this app to make it easier for them to see the orders that has been created but hasnt been finalized.
+
+second user is accounting, or CFO
+their primary role is in dealing with money which includes approval requests regarding money such as the credit card authorization. 
+
+Third position i created was the operations manager, which im going to pretend to be, is the only one able to create or enter new products into the system
+
+
+
+
+
+With that i conclude my presentation and open up for questions.
+
